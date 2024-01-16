@@ -14,6 +14,8 @@ In no way complete or especially exciting, this could provide a jumping off poin
 
 * Clone repo to chosen local directory
 * Run `composer install` from local diretcory
+* Copy `.env.example` to `.env`
+* Run `php artisan key:generate`
 * Make sure db of choice (Tested with MySQL) is up and running
 * Update .env has required DB_CONNECTION/DB_USERNAME/DB_PASSWORD details
 * Run `php artisan migrate --seed`
